@@ -1,0 +1,7 @@
+{
+  "/api": {
+    "target": "https://my-dohone.com/dohone/pay",
+    "secure": true,
+    "changeOrigin": true
+  }
+}

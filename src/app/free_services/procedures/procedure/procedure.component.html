@@ -1,0 +1,194 @@
+<div class="small-container">
+    <div class="container-form">
+
+        <div class="cmr">
+            <div class="card">
+                <div class="cmr-img">
+                    <img [src]="image" [title]="name">
+                </div>
+                <div class="cmr-info">
+                    <h3>PRÉSIDENCE DE LA RÉPUBLIQUE</h3>
+                    <h4><strong>Président de la République : </strong> S.E. Paul BIYA</h4>
+                    <h4>
+                        <strong>LE SECRETARIAT GENERAL : </strong> 
+                        <ul>
+                            <li><strong>Ministre d’Etat, Secrétaire Général de la Présidence de la République :</strong> <br>M. Ferdinand NGOH NGOH</li>
+                            <li><strong>Ministre Secrétaire Général Adjoint de la Présidence de la République :</strong> <br>M. ELUNG Paul CHE</li>
+                            <li><strong>Ministre Secrétaire Général Adjoint de la Présidence de la République :</strong> <br>M. MOHAMADOU MOUSTAPHA</li>
+                        </ul>
+                        <a href="../../../../assets/files/PRESIDENCE DE LA REPUBLIQUE.pdf" download>Voir Plus</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="cmr">
+            <div class="card">
+                <div class="cmr-img">
+                    <img [src]="image" [title]="name">
+                </div>
+                <div class="cmr-info">
+                    <h3>COMPOSITION DU GROUVERNEMENT CAMEROUNAIS</h3>
+                    <h4><strong>Premier Ministre, Chef du Gouvernement:</strong> M. JOSEPH John Nguté</h4>
+                    <h4>
+                        <strong>Ministres d'États:</strong> 
+                        <ul>
+                            <li><strong>Ministre d’État, ministre du Tourisme et des Loisirs :</strong> M. Bello Bouba Maïgari</li>
+                            <li><strong>Ministre d’État, ministre de la Justice, Garde des sceaux :</strong> M. Laurent Esso</li>
+                            <li><strong>Ministre d’État, ministre de l’Enseignement supérieur :</strong> M. Jacques Fame Ndongo</li>
+                        </ul>
+                        <a href="../../../../assets/files/COMPOSITION DU GOUVERNEMENT DE LA RÉPUBLIQUE DU CAMEROUN.pdf" download>Voir Plus</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="cmr">
+            <div class="card">
+                <div class="cmr-img">
+                    <img [src]="image" [title]="name">
+                </div>
+                <div class="cmr-info">
+                    <h3>ASSEMBLÉE NATIONALE</h3>
+                    <h4><strong>PRESIDENT : </strong> Le Très Honorable CAVAYE YEGUIE DJIBRIL</h4>
+                    <h4><strong>1er Vice - Président : </strong> ETONG NDZOK Hilarion</h4>
+                    <h4>
+                        <strong>Autres vice-présidents :</strong> 
+                        <ul>
+                            <li>- Hon. BAORO Théophile</li>
+                            <li>- Hon. Mary MUYALI BOYA Epse MEBOKA</li>
+                            <li>- Hon. KOMBO GBERI</li>
+                            <li>- Hon. DATOUO Théodore</li>
+                            <li>- Hon. ABBA ALIM</li>
+                        </ul>
+                        <a href="../../../../assets/files/ASSEMBLEE NATIONALE.pdf" download>Voir Plus</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="security">
+            <h1 class="title">Sécurité: police - gendarmerie - pompiers</h1>
+            <div class="row">
+                <div class="row1">
+                    <h3>Quelques Adresses utiles</h3>
+                    <ul>
+                        <li>Direction de la Police Judiciaire (DPJ) :  <span>222 23 24 11</span></li>
+                        <li>Groupement Spécial d’opérations (GSO) : <span>222 30 65 15</span></li>
+                        <li>Numéro d’utilité publique de la DGSN : <span>1 500</span></li>
+                        <li>Équipes Spéciales d’interventions Rapides (ESIR) : <span>117 ou 17</span></li>
+                        <li>Compagnie de Sécurisation des Diplomates (CSD) : <span>120</span></li>
+                    </ul>
+                </div>
+                <div class="row1 division">
+                    <div class="center">
+                        <h2>CENTRE</h2>
+                        <div class="CE-info">
+                            <div>
+                                <ul>
+                                    <li>Délégation Régionale de la Sûreté Nationale <span>222 23 26 53</span></li>
+                                    <li>Division Régionale de la Police Judiciaire : <span>222 23 04 22</span></li>
+                                    <li>Groupement Mobile d’Intervention N°01 : <span>222 21 24 04</span></li>
+                                    <li>Aéroport International de Yaoundé Nsimalen : <span>222 23 36 02</span></li>
+                                </ul>
+                            </div>
+                            <div class="police" *ngIf="police && police.length > 0">
+                                <div *ngFor="let p of police">
+                                    <h2>{{ p.name }} : <span style="color: blue;">{{ p.phone }}</span></h2>
+                                    <ul *ngFor="let c of p.agency">
+                                        <li>{{ c.name }} : <span>{{ c.phone }}</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="region">
+                        <div class="col">
+                            <div class="service" *ngFor="let s of security">
+                                <h2>{{ s.region }}</h2>
+                                <p>Délégation Régionale de la Sûreté Nationale : <span style="color: blue;">{{ s.num_del }}</span></p>
+                                <p>Division Régionale de la Police Judiciaire : <span style="color: blue;">{{ s.num_div }}</span></p>
+                                <p>Commissariat Central : <span style="color: blue;">{{ s.num_com }}</span></p>
+                                <p>Groupement Mobile d’interventions : <span style="color: blue;">{{ s.num_group }}</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div>
+            <h1 class="title">informations et procedures pratiques</h1>
+            <h2 class="sub-title">pièces à fournir pour légalisation de documents au MINREX</h2>
+            <div class="exclusives" *ngIf="procedures && procedures.length > 0">
+                <div *ngFor="let procedure of procedures">
+                    <h4>{{ procedure.name }}</h4>
+                    <ul>
+                        <li>{{ procedure.description }}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="hotel-links link-1">
+            <h1 class="title">Renseignements pour<br>un deplacement<br>inter-urbain</h1>
+            <div class="info">
+                <ul>
+                    <li>
+                        <div>
+                            <a href="#">Horaires arrivées et départs<br>des vols aéroports Yaounde et D’la</a>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">
+                                Horaires arrivées et départs des trains gares Yde, Dla, Ndre, Belabo
+                                <br>Dla, Bafoussam, Bamenda, Bertoua, Ngaoundere, Garoua. Des agences
+                            </a>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">Horaires et réservations des agences<br>de voyages de transport inter urbain Yde</a>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">Horaires des vols arrivés et départ<br>des aéroports Yaoundé et Douala</a>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">
+                                Horaires départ et arrivée des trains voyageurs des gares
+                                <br>Yaoundé et Douala Vaccinations obligatoires au Cameroun
+                            </a>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">Météo des villes Yaoundé et Douala</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">
+                                MAIRIE ARRONDISSEMENTS DE YAOUNDÉ ET DOUALA LIEU ET COORDONNÉES
+                            </a>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>

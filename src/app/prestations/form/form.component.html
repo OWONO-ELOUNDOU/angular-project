@@ -1,0 +1,110 @@
+<div class="small-container">
+    <h1 class="title">Fiche d'information du service sollicité</h1>
+    <div class="form-box">
+
+        
+        <form id="form" #taskForm="ngForm"  (ngSubmit)="addToCart(product1, taskForm.value)">
+
+            <div class="logo" style="text-align: center;">
+                <img [src]="logo" style="width: 240px;" />
+            </div>
+            
+            <table>
+                <tr>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <input type="text" name="fname" placeholder="votre nom" ngModel>
+                    </td>
+                    <td>
+                        <input type="text" name="lname" placeholder="votre prénom" ngModel>
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <th>Adresse</th>
+                    <th>Téléphone</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="email" name="email" placeholder="Adresse mail" ngModel>
+                    </td>
+                    <td>
+                        <input type="text" name="phone" placeholder="numéro whatsapp" ngModel>
+                    </td>
+                </tr>
+            </table>
+    
+            <table>
+                <tr>
+                    <th class="rubrique">
+                        Numéro rubrique (1, 2, 3)
+                    </th>
+                    <th>
+                        Service Sélectionné
+                    </th>
+                </tr>
+    
+                <tr>
+                    <td>
+                        <input type="number" value="{{ product.Id }}" style="width: 60px;" ngModel/>
+                    </td>
+                    <td>
+                        <input type="text" value="{{ product1.name }}" ngModel>
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <th>
+                        Description détaillée du service sollicité
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <textarea rows="5" required ngModel></textarea>
+                    </td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <th>
+                        Coordonnées précise de l'administration, du service, du responsable à contacter
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="text" placeholder="coordonnées" required ngModel/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        
+        <div class="button" >
+            <!--<input type="submit" [routerLink]="['/cart']" (click)="addToCart(product1)"  value="Ajouter au Panier">-->
+            <input type="submit" [routerLink]="['/cart']" placeholder="Ajouter au Panier">
+        </div>
+    </div>
+
+    <div class="note">
+        <h4>N.B:</h4>
+        <ul>
+            <li>- Nous pouvons vous contacter  pour toutes informations et
+                <br>précisions complémentaires et nécessaires pour la réalisation de votre demande.
+            </li>
+            <li>- Expédition des plis et colis à vos frais : service de transport Yango,
+                <br>agence de transport inter-urbain, DHL, EMS, UPS, autres à préciser
+            </li>
+        </ul>
+    </div>
+</div>

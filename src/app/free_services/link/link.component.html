@@ -1,0 +1,91 @@
+<div class="small-container">
+    <div class="container-form">
+        <div>
+            <h1 class="title" style="margin-bottom: 30px;">Éducation</h1>
+            <div class="exclusives" >
+                <div *ngFor="let s of schools" style="text-align: center;">
+                    <img [src]="s.image" [title]="s.name"/>
+                    <span>
+                        <a href="{{ s.url }}">{{ s.name | uppercase }}</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    
+        <div style="margin-top: 100px;">
+            <h1 class="title" style="margin-bottom: 30px;">Banques et Assurances</h1>
+            <div class="exclusives" *ngIf="Banks && Banks.length > 0">
+                <div *ngFor="let b of Banks" style="text-align: center;">
+                    <img [src]="b.image" [title]="b.name"/>
+                    <span>
+                        <a href="{{ b.url }}">{{ b.name | uppercase }}</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    
+        <div style="margin-top: 100px;">
+            <h1 class="title" style="margin-bottom: 30px;">Ambassades et Consulats</h1>
+            <div class="exclusives" *ngIf="embassy && embassy.length > 0">
+                <div *ngFor="let e of embassy" style="text-align: center;">
+                    <img [src]="e.image" [title]="e.name"/>
+                    <span>
+                        <a href="{{ e.url }}">{{ e.name | uppercase }}</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    
+        <div style="margin-top: 100px;">
+            <h1 class="title" style="margin-bottom: 30px;">Services Publiques</h1>
+            <div class="exclusives" *ngIf="gov && gov.length > 0">
+                <div *ngFor="let g of gov" style="text-align: center;">
+                    <img [src]="g.image" [title]="g.name"/>
+                    <span>
+                        <a href="{{ g.url }}">{{ g.name | uppercase }}</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    
+        <div style="margin-top: 100px;">
+            <h1 class="title" style="margin-bottom: 30px;">Tourisme</h1>
+            <div class="exclusives" *ngIf="hotel && hotel.length > 0">
+                <div *ngFor="let h of hotel" style="text-align: center;">
+                    <img [src]="h.image" [title]="h.name"/>
+                    <span>
+                        <a href="{{ h.url }}">{{ h.name | uppercase }}</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    
+        <div style="margin-top: 100px;">
+            <h1 class="title" style="margin-bottom: 30px;">Santé</h1>
+            
+            <div class="cmr">
+                <div class="card">
+                    <div class="cmr-img">
+                        <img [src]="image" alt="Pharmacie de garde et hôpitaux">
+                    </div>
+                    <div class="cmr-info">
+                        <h3>PHARMACIES DE GARDE ET HÔPITAUX</h3>
+                        <h4>Les cliniques, pharmacies et centres hospitaliers du Cameroun</h4>
+                        <h4>
+                            <strong>Yaoundé:</strong> 
+                            <ul>
+                                <li>Pharmacie Emmanuel :<strong> 222 20 02 44</strong></li>
+                                <li>Pharmacie les Hortensia :<strong> 243 60 79 84</strong></li>
+                                <li>Pharmacie du Bien-être :<strong> 222 20 25 19</strong></li>
+                            </ul>
+                            <p>
+                                Voir plus : <a href="../../../assets/files/LES PHARMACIES DE GARDE.pdf" style="margin-right: 25px;" download>Pharmacies de garde</a> <a href="../../../assets/files/HOPITAUX.pdf" download>Hôpitaux</a>
+                            </p>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>

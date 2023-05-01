@@ -1,0 +1,233 @@
+.small-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.sub-title{
+    margin: 50px 70px 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2.4vw;
+    font-weight: bold;
+    color: hwb(0 20% 80%);
+}
+.hotel-links{
+    margin-top: -30px;
+}
+.exclusives {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin: 0 70px;
+}
+.exclusives div{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+}
+.exclusives div h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.exclusives div ul {
+    list-style: none;
+}
+.exclusives div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.container-form .link{
+    margin-top: 40px;
+}
+.link-1{
+    margin-top: 70px;
+}
+
+.cmr {
+    margin: 100px 0;
+    padding: 0 70px;
+}
+.cmr .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    padding: 20px 0;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.card .cmr-img img {
+    width: 100%;
+    max-width: 300px;
+}
+.card .cmr-info h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    color: #777;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.card .cmr-info h4 {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card .cmr-info h4 ul {
+    list-style: none;
+}
+.card .cmr-info h4 ul li {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.info {
+    margin: 50px 0;
+    padding: 0 70px;
+    text-align: center;
+}
+.info ul {
+    list-style: none;
+}
+.info ul li {
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 10px 15px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: background 0.5s ease;
+    cursor: pointer;
+}
+.info ul li:hover {
+    background: #ddd;
+}
+.info ul li div {
+    text-align: center;
+}
+.info ul li div a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.security {
+    padding: 0 70px;
+}
+.security .row {
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.row1 h3 {
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    color: #777;
+}
+.row1 ul {
+    list-style: none;
+}
+.row1 ul li {
+    font-size: 18px;
+    margin: 40px 0;
+    position: relative;
+}
+.row1 ul li span{
+    color: blue;
+    cursor: pointer;
+}
+.row1 ul li::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background: #777;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+.center {
+    margin: 30px 0;
+}
+.center .CE-info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.CE-info .police div {
+    width: 100%;
+    max-width: 250px;
+    margin-right: 20px;
+}
+.CE-info .police div ul li{
+    font-size: 15px;
+}
+.CE-info .police {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.col{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+}
+.service{
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+    transition: transform 0.5s, background 0.5s;
+}
+
+.service h2{
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+.service ul {
+    list-style: none;
+    padding: 5px 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.service:hover {
+    transform: scale(1.05);
+}
+.service ul li {
+    text-align: center;
+    margin-bottom: 10px;
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 930px){
+    .title {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .sub-title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .cmr .card {
+        border-radius: 0;
+        box-shadow: none;
+    }
+}

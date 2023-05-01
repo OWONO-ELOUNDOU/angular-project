@@ -1,0 +1,65 @@
+<div class="container">
+    <div class="title" id="title">Inscription</div>
+        <div class="form">
+
+            <div class="row">
+                <div>
+                    <div *ngIf="errormsg" role="alert">
+                        {{ errormsg }}
+                        <button type="button" data-bs-dismiss="alert" aria-label="close"></button>
+                    </div>
+
+                    <div *ngIf="successmsg" role="alert">
+                        {{ successmsg }}
+                        <button type="button" data-bs-dismiss="alert" aria-label="close"></button>
+                    </div>
+                </div>
+            </div>
+
+            <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Nom</span>
+                        <input type="text" name="fname" ngModel>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Prénom</span>
+                        <input type="text" name="lname" ngModel>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Adresse mail</span>
+                        <input type="email" name="email" ngModel>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Téléphone</span>
+                        <input type="number" name="phone" ngModel>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Mot de Passe</span>
+                        <input type="password" name="password" ngModel>
+                    </div>
+                </div>
+
+                <div class="location-details">
+                    <div class="input-box">
+                        <span class="details">Quartier ou Rue</span>
+                        <input type="text" name="street" ngModel>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Ville</span>
+                        <input type="text" name="town" ngModel>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Pays</span>
+                        <input type="text" name="country" ngModel>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Inscription">
+                </div>
+                <p>Already have an account ? <a [routerLink]="['/login']">Connexion</a></p>
+            </form>
+            
+        </div>
+ </div>

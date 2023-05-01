@@ -1,0 +1,40 @@
+.wrapper {
+    height: auto;
+    overflow-y: auto;
+}
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+.carousel .card{
+    margin-right: 20px;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgba(255,255,255,0.2);
+    background: #fff;
+}
+.carousel .card .card-header img{
+    width: 100%;
+}
+.carousel .card .card-body p{
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+}
+
+@media screen and (max-width: 900px) {
+    .carousel img {
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .carousel img {
+        width: 100%;
+    }
+}

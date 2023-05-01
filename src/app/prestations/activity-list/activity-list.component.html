@@ -1,0 +1,33 @@
+<div class="small-container">
+    <div>
+        <h1>Courses en Ligne</h1>
+        <div class="row">
+            <div class="service" *ngFor="let p of prestation">
+                <img [src]="p.image"  width="50px" height="50px">
+                <p>{{ p.Id }}</p>
+                <h2>{{ p.name }}</h2>
+                <p>{{ p.info }}</p>
+                <strong>Selectionner le service souhaité</strong>
+                <div class="tasks" *ngFor="let a of p.activity">
+                    <div class="task">
+                        <div class="task-img">
+                            <img [src]="a.image" [alt]="a.name">
+                        </div>
+                        <div class="task-info">
+                            <div>
+                                {{ a.id }} {{ a.name }}
+                                <div class="price" id="price">
+                                    {{ a.price | currency : 'EUR' : 'symbol' : '1.2-2' }}
+                                </div>
+                                ({{ a.price ? a.price * convert : "sur devis" }} {{ a.price ? "FCFA" : "" }})
+                            </div>
+                            <div class="btn">
+                                <button [routerLink]="['/form', p.Id, a.id]">Commander</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

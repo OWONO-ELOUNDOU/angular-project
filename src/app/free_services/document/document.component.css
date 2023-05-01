@@ -1,0 +1,63 @@
+.small-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-form {
+    margin-top: 10%;
+    padding: 0 70px;
+}
+.sub-title{
+    margin: 50px 70px 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: hwb(0 20% 80%);
+}
+.exclusives {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin: 0 70px;
+}
+.exclusives div:not(.download-btn) {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+}
+.exclusives div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.exclusives div span{
+    text-align: center;
+}
+.exclusives div .download-btn a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: deeppink;
+    border: 1px solid deeppink;
+    border-radius: 15px;
+    background: #fff;
+    padding: 5px 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.exclusives div .download-btn a:hover {
+    transform: scale(1.2);
+    background: deeppink;
+    color: #fff;
+}
+.download-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .container-form .title {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+}

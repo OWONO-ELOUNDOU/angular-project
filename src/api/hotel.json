@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Hilton Hotel",
+        "image": "assets/Images/links/H_Yaounde.jpeg",
+        "type": "Hotel Reservation",
+        "url": "https://www.hiltonhotels.com/fr_FR/cameroun/hilton-yaounde/?WT.mc_id=LADA0EMEA1HI2PSH3GGL4INTBPP5dkt6CTYHOCN7en_&epid!_&ebuy!_%7Bdskeywordid%7D&gclid=Cj0KCQjw_7KXBhCoARIsAPdPTfhA3isWgdmgSSJFi4rk5OJMHCajs2Os518C1D9l2ttwfpWE317sq_AaAlLgEALw_wcB&gclsrc=aw.ds"
+    },
+    {
+        "id": 2,
+        "name": "CAMAIRCO",
+        "image": "assets/Images/links/CAMAIR-CO.jpeg",
+        "type": "Hotel Reservation",
+        "url": "https://www.camair-co.cm"
+    },
+    {
+        "id": 3,
+        "name": "ETHIOPIAN",
+        "image": "assets/Images/links/Ethiopian_Airlines.png",
+        "type": "Hotel Reservation",
+        "url": "https://www.ethiopianairlines.com"
+    },
+    {
+        "id": 4,
+        "name": "ASKY ASKY",
+        "image": "assets/Images/links/ASKY_Airlines_logo.png",
+        "type": "Hotel Reservation",
+        "url": "https://www.flyasky.com"
+    },
+    {
+        "id": 5,
+        "name": "AIR FRANCE",
+        "image": "assets/Images/links/AIRFRANCE.webp",
+        "type": "Hotel Reservation",
+        "url": "https://wwws.airfrance.cm"
+    },
+    {
+        "id": 6,
+        "name": "AIR COTE IVOIRE",
+        "image": "assets/Images/links/AIR_COTE_IVOIRE.jpeg",
+        "type": "Hotel Reservation",
+        "url": "https://www.aircotedivoire.com"
+    },
+    {
+        "id": 7,
+        "name": "AIR SÉNÉGAL ",
+        "image": "assets/Images/links/AIR_SENEGAL.jpeg",
+        "type": "Hotel Reservation",
+        "url": "https://www.au-senegal.com"
+    },
+    {
+        "id": 8,
+        "name": "TURQUISH",
+        "image": "assets/Images/links/TURQUISH.png",
+        "type": "Hotel Reservation",
+        "url": "https://www.turkishairlines.com"
+    },
+    {
+        "id": 9,
+        "name": "EGYPT AIR",
+        "image": "assets/Images/links/EGYPT_AIR.png",
+        "type": "Hotel Reservation",
+        "url": ""
+    }
+]

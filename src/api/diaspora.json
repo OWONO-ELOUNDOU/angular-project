@@ -1,0 +1,37 @@
+[
+    {
+        "ActivityId": 1,
+        "ActivityName": "Recherche des maisons et terrains auprès des sociétés d’état et sociétés immobilières fiables et agréées.",
+        "ActivityPrice": 200,
+        "ActivityDesc":"",
+        "ImageUrl": "assets/Images/activity_images/recherche maison.jpeg"
+    },
+    {
+        "ActivityId": 2,
+        "ActivityName": "Recherche de terrains et placements fonciers spéculatifs",
+        "ActivityPrice": 150,
+        "ActivityDesc":"",
+        "ImageUrl": "assets/Images/activity_images/terrains et placemants fonciers.jpeg"
+    },
+    {
+        "ActivityId": 3,
+        "ActivityName": "Construction, réhabilitation et innovation immobilière",
+        "ActivityPrice": 200,
+        "ActivityDesc":"",
+        "ImageUrl": "assets/Images/activity_images/construction immobilière.jpeg"
+    },
+    {
+        "ActivityId": 4,
+        "ActivityName": "Recherche des actifs financiers",
+        "ActivityPrice": 100,
+        "ActivityDesc":"",
+        "ImageUrl": "assets/Images/activity_images/actifs financiers.jpeg"
+    },
+    {
+        "ActivityId": 5,
+        "ActivityName": "Domiciliation commerciale des sociétés",
+        "ActivityPrice": 100,
+        "ActivityDesc":"",
+        "ImageUrl": "assets/Images/activity_images/domiciliation commerciale.jpeg"
+    }
+]

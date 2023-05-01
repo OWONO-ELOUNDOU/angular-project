@@ -1,0 +1,116 @@
+.small-container {
+    margin-top: 10%;
+    padding: 0 70px;
+}
+.small-container h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #777;
+    margin-bottom: 60px;
+    font-weight: lighter;
+    position: relative;
+}
+.small-container h1::after{
+    content: '';
+    background: #303ef7;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.form-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+    margin-top: 20px;
+    text-align: center;
+}
+.button input{
+    color: #57cc99;
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: 1px solid #57cc99;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.button input:hover {
+    border-radius: 30px;
+    background: #57cc99;
+    color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+    .form-box form {
+        flex-direction: column;
+    }
+}
+
+
+table {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 5%;
+    border-collapse: all;
+}
+
+th {
+    text-align: center;
+    padding: 8px;
+    background: #26242b;
+    color: #fff;
+    font-weight: normal;
+}
+th.rubrique {
+    width: 20px;
+}
+td {
+    padding: 10px 5px;
+}
+td input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #777;
+}
+td select {
+    padding: 10px 30px;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #777;
+}
+td textarea {
+    width: 100%;
+    margin-top: 10px;
+    resize: none;
+}
+td a {
+    color: #ff5361;
+    font-size: 12px;
+}
+td img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+.total-price table {
+    border-top: 3px solid #ff5361;
+    width: 100%;
+    max-width: 400px;
+}

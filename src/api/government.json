@@ -1,0 +1,163 @@
+[
+    {
+        "id": 1,
+        "name": "Premier Ministère",
+        "image": "assets/Images/cameroon/PM.jpeg",
+        "type": "Administration Camerounaise",
+        "url": "https://www.spm.gov.cm/"
+    },
+    {
+        "id": 2,
+        "name": "Ministère des Affaires Sociales",
+        "image": "assets/Images/cameroon/MINAS.jpg",
+        "type": "Administration Camerounaise",
+        "url": "http://minas.cm/fr/"
+    },
+    {
+        "id": 3,
+        "name": "Ministère du Commerce",
+        "image": "assets/Images/cameroon/MINCOM.jpeg",
+        "type": "Administration Camerounaise",
+        "url": "https://www.mincommerce.gov.cm/fr"
+    },
+    {
+        "id": 4,
+        "name": "Ministère de l'éducation de base",
+        "image": "assets/Images/cameroon/minedub.png",
+        "type": "Administration Camerounaise",
+        "url": "http://www.minedub.cm/"
+    },
+    {
+        "id": 5,
+        "name": "Ministère du l'Économie, de la Planification et de l'Àménagement du territoire",
+        "image": "assets/Images/cameroon/MINEPAT.jpeg",
+        "type": "Administration Camerounaise",
+        "url": "https://minepat.gov.cm/fr/accueil/"
+    },
+    {
+        "id": 6,
+        "name": "Ministère de l'Enseignement Supérieur",
+        "image": "assets/Images/cameroon/MINESUP.jpeg",
+        "type": "Administration Camerounaise",
+        "url": "http://www.minesup.gov.cm/"
+    },
+    {
+        "id": 7,
+        "name": "Ministère des Finances",
+        "image": "assets/Images/cameroon/MINFI.png",
+        "type": "Administration Camerounaise",
+        "url": "http://www.impots.cm"
+    },
+    {
+        "id": 8,
+        "name": "Ministère de Forêt et de la Faune",
+        "image": "assets/Images/cameroon/MINFOFA.jpeg",
+        "type": "Administration Camerounaise",
+        "url": "https://www.minfof.cm/"
+    },
+    {
+        "id": 9,
+        "name": "Ministère de l'Industrie, des Mines et du Développement technologique",
+        "image": "assets/Images/cameroon/MINMIDT.png",
+        "type": "Administration Camerounaise",
+        "url": "https://minmidt-gov.net/fr/"
+    },
+    {
+        "id": 10,
+        "name": "Ministère de la Jeunesse et de l'Education civique",
+        "image": "assets/Images/cameroon/MINJEC.jpeg",
+        "type": "Administration Camerounaise",
+        "url": "http://www.minjec.gov.cm/index.php?lang=fr"
+    },
+    {
+        "id": 11,
+        "name": "Ministère de la Justice",
+        "image": "assets/Images/cameroon/MINJUSTICE.jpeg",
+        "type": "Administration Camerounaise",
+        "url": "http://www.minjustice.gov.cm/index.php/en/"
+    },
+    {
+        "id": 12,
+        "name": "Pre-enregistrement passeport",
+        "image": "assets/Images/cameroon/cameroun.png",
+        "type": "Administration Camerounaise",
+        "url": " https://portal.passcam.cm/"
+    },
+    {
+        "id": 13,
+        "name": "Attestation non redevance",
+        "image": "assets/Images/cameroon/DGI.png",
+        "type": "Administration Camerounaise",
+        "url": "https://www.impots.cm/fr/non-redevance"
+    },
+    {
+        "id": 14,
+        "name": "Attestation d’immatriculation (NIU)",
+        "image": "assets/Images/cameroon/cameroun.png",
+        "type": "Administration Camerounaise",
+        "url": " https://teledeclaration-dgi.cm/modules/Common/Account/eregistration.aspx?er=empty"
+    },
+    {
+        "id": 15,
+        "name": "TVA",
+        "image": "assets/Images/cameroon/DGI.png",
+        "type": "Administration Camerounaise",
+        "url": " https://www.impots.cm/fr/non-redevance"
+    },
+    {
+        "id": 16,
+        "name": "Différentes taxes fiscales",
+        "image": "assets/Images/cameroon/DGI.png",
+        "type": "Administration Camerounaise",
+        "url": "https://www.impots.cm/fr/non-redevance"
+    },
+    {
+        "id": 17,
+        "name": "Déclaration CNPS",
+        "image": "assets/Images/cameroon/CNPS_Cameroun.jpeg",
+        "type": "Administration Camerounaise",
+        "url": "http://web.cnps.cm"
+    },
+    {
+        "id": 18,
+        "name": "ARMP , Attestation de non exclusion",
+        "image": "assets/Images/cameroon/ARMP.jpeg",
+        "type": "Administration Camerounaise",
+        "url": "http://pridesoft.armp.cm/_lib/file/doc/SiteWeb/Documents/Formulaire_Demande_CNE.pdf"
+    },
+    {
+        "id": 19,
+        "name": "Journal marchés publics",
+        "image": "assets/Images/cameroon/ARMP.jpeg",
+        "type": "Administration Camerounaise",
+        "url": "https://www.armp.cm/jdms"
+    },
+    {
+        "id": 20,
+        "name": "Chambre de commerce",
+        "image": "assets/Images/cameroon/CCIMA.jpeg",
+        "type": "Administration Camerounaise",
+        "url": "https://www.ccima.cm"
+    },
+    {
+        "id": 21,
+        "name": "Chambre d’agriculture",
+        "image": "assets/Images/cameroon/CAPEF.jpeg",
+        "type": "Administration Camerounaise",
+        "url": "http://cpccaf.org"
+    },
+    {
+        "id": 22,
+        "name": "Gicam",
+        "image": "assets/Images/cameroon/GICAM.jpeg",
+        "type": "Administration Camerounaise",
+        "url": "https://www.legicam.cm"
+    },
+    {
+        "id": 23,
+        "name": "Ecam",
+        "image": "assets/Images/cameroon/ECAM.jpeg",
+        "type": "Administration Camerounaise",
+        "url": "http://patronat-ecam.cm"
+    }
+]

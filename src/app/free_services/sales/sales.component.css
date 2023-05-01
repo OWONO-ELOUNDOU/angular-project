@@ -1,0 +1,38 @@
+.container-form{
+    margin-top: 10%;
+    padding: 0 70px;
+}
+.title{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.sub-title{
+    margin: 50px 70px 20px;
+    text-align: center;
+    font-size: 2.4vw;
+    font-weight: bold;
+    color: hwb(0 20% 80%);
+}
+.hotel-links{
+    margin-top: -30px;
+}
+.exclusives {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin: 0 70px;
+}
+.exclusives div{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+}
+.exclusives div img{
+    width: 100%;
+    border-radius: 10px;
+}
+.container-form .link{
+    margin-top: 40px;
+}

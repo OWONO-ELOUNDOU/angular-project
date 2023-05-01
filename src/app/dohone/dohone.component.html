@@ -1,0 +1,109 @@
+
+<div class="container">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-lg-2 mb-lg-0 mb-3">
+        <div class="card p-4">
+          <div class="img-box">
+            <img src="https://www.my-dohone.com/dohone/site/res/img/homepage-slider/dohone-logo.png" alt="DOHONE Account">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 mb-lg-0 mb-3">
+        <div class="card p-4">
+          <div class="img-box">
+            <img src="https://www.orange.cm/particuliers/resources/img/Orange_Money.jpg" alt="Orange Money">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 mb-lg-0 mb-3">
+        <div class="card p-4">
+          <div class="img-box">
+            <img src="https://www.cleanpay.africa/wp-content/uploads/2020/10/logo-MTN-Mobile-Money-1.jpg" alt="MTN Mobile Money">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 mb-lg-0 mb-3">
+        <div class="card p-4">
+          <div class="img-box">
+            <img src="https://zitopay.africa/assets/zito_theme/images/euMoney.png" alt="Express Union Mobile Money">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 mb-lg-0 mb-3">
+        <div class="card p-4">
+          <div class="img-box">
+            <img src="https://www.my-dohone.com/dohone/res/images/partner/gimac.png" alt="GIMAC Pay">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 mb-lg-0 mb-3">
+        <div class="card p-4">
+          <div class="img-box">
+            <img src="https://billfort.com/uploads/product/73f7797c0f1a66bf3dbfa25f4b5da1a923809b80.png" alt="Visa-mastercard">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mt-4">
+        <div class="card p-3">
+          <p class="mb-0 fw-bold h4">Paiement avec DOHONE</p>
+        </div>
+      </div>
+  
+      <form class="form" [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+        <div class="col-12">
+          <div class="card p-3">
+            <div class="card-body border p-0">
+              <div class="collapse show p-3 pt-0" id="collapseExample">
+                <div class="row">
+                  <div class="col-lg-5 mb-lg-0 mb-3 mt-3">
+                    <p class="h4 mb-0">Détails de l'achat</p>
+                    <p class="h5 mb-0">
+                      <span class="fw-bold">Prix :</span>
+                      <span class="c-green"> {{ price | currency : 'EUR' : 'symbol' : '1.2-2' : 'fr'}} /{{ cmprice }} FCFA</span>
+                    </p>
+                    <p class="h5 mb-0">
+                      <span class="fw-bold">Article(s) :</span>
+                    </p>
+                    <ul>
+                      <div class="service" *ngFor="let item of items">
+                        <li><p class="mb-0">{{ item.name }}</p></li>
+                      </div>
+                    </ul>
+                  </div>
+                  <div class="col-lg-7 mt-3 ml-2">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form__div">
+                          <input type="text" class="form-control" placeholder=" " id="inputUsername" formControlName="rN" required>
+                          <label for="inputUsername" class="form__label">Nom complet</label>
+                        </div>
+                      </div>
+  
+                      <div class="col-12">
+                        <div class="form__div">
+                          <input type="email" class="form-control" placeholder=" " id="inputEmail" formControlName="rE">
+                          <label for="inputEmail" class="form__label">Votre adresse mail</label>
+                        </div>
+                      </div>
+  
+                      <div class="col-12">
+                        <div class="form__div">
+                          <input type="number" class="form-control" placeholder=" " id="inputPhone" formControlName="rT" required>
+                          <label for="inputPhone" class="form__label">Numéro de téléphone</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary payment" type="submit">Effectuer le paiement</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

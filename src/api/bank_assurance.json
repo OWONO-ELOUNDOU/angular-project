@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Afriland First Bank",
+        "image": "assets/Images/Banks/AFB.jpeg",
+        "type": "Banks",
+        "url": "https://www.afrilandfirstbank.com/"
+    },
+    {
+        "id": 2,
+        "name": "Banque Atlantique",
+        "image": "assets/Images/Banks/Atlantique Banque.jpeg",
+        "type": "Banks",
+        "url": "https://banqueatlantique-cmr.com/"
+    },
+    {
+        "id": 3,
+        "name": "Société générale Cameroun",
+        "image": "assets/Images/Banks/SGBC.jpeg",
+        "type": "Banks",
+        "url": "https://societegenerale.cm/"
+    },
+    {
+        "id": 4,
+        "name": "UBA Bank",
+        "image": "assets/Images/Banks/UBA.jpeg",
+        "type": "Banks",
+        "url": "https://www.ubacameroon.com/"
+    },
+    {
+        "id": 5,
+        "name": "Allianz Assurance",
+        "image": "assets/Images/Assurances/Allianz.webp",
+        "type": "Assurance",
+        "url": "https://www.allianz.cm/"
+    },
+    {
+        "id": 6,
+        "name": "Axa Assurance",
+        "image": "assets/Images/Assurances/axa.png",
+        "type": "Assurance",
+        "url": "https://www.axa.cm/"
+    },
+    {
+        "id": 7,
+        "name": "NSIA",
+        "image": "assets/Images/Assurances/NSIA.png",
+        "type": "Assurance",
+        "url": "https://nsiassurancescm.com/"
+    },
+    {
+        "id": 8,
+        "name": "Atlantique Assurance",
+        "image": "assets/Images/Assurances/ATLANTIQUE-ASSURANCE.png",
+        "type": "Assurance",
+        "url": "https://www.atlantiqueassurances.cm/fr/"
+    }
+]

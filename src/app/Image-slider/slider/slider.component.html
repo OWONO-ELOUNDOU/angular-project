@@ -1,0 +1,14 @@
+<div class="wrapper">
+    <div class="carousel">
+        <div class="card" *ngFor="let c of card">
+            <div class="card-header">
+                <img [src]="c.image" />
+            </div>
+            <div class="card-body">
+                <p>
+                    {{ c.name }} <strong>utilisez Digital Direct Assistance</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

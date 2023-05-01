@@ -1,0 +1,16 @@
+<div class="small-container">
+    <div class="container-form">
+        <h1 class="title">Documents Administratifs et Usuels</h1>
+        <div class="exclusives">
+            <div *ngFor="let file of files">
+                <img [src]="file.image">
+                <span>
+                    <h4>{{ file.name }}</h4>
+                </span>
+                <div class="download-btn">
+                    <a [href]="file.url" download>Télécharger</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

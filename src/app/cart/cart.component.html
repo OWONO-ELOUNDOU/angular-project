@@ -1,0 +1,72 @@
+<div class="small-container">
+    <div class="top">
+        <h1>Panier</h1>
+        <a [routerLink]="['/activity']" class="contact-host">Retour à la liste</a>
+    </div>
+    <table>
+        <tr>
+            <th>Produits</th>
+            <th>Quantité</th>
+            <th>Prix</th>
+        </tr>
+
+        
+        <tr *ngFor="let item of items; let i = index">
+            <td>
+                <div class="cart-info">
+                    <img [src]="item.image" />
+                    <div>
+                        <p>{{ item.name }}</p>
+                        <small>Prix: {{ item.price }}</small>
+                        <br>
+                        <a href="#">Supprimer</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <input type="number" class="qty" [value]="item.quantity" (blur)="validateInput($event, i)">
+            </td>
+            <td>
+                {{ item.price * item.quantity | currency : 'EUR' : 'symbol' : '1.2-2' : 'fr' }} / 
+                {{ ( item.price * item.quantity ) * convert }} FCFA
+            </td>
+        </tr>
+    </table>
+    
+
+    <div class="total-price">
+        <table>
+            <tr>
+                <td>Nombre de produits</td>
+                <td>{{ number }}</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td>
+                    {{ total | currency : 'EUR' : 'symbol' : '1.2-2' : 'fr' }} / {{ cmPrice | currency : 'XAF' : 'symbol'}}
+                </td>
+            </tr>
+            
+            <tr>
+                <td>Valider</td>
+                <td>
+                    <!--
+                    <div id="myPaypalButtons"></div>
+                    <a href="https://buy.stripe.com/test_00g7wa5IU9s22qs9AC" class="payBtn" >Valider</a>
+                    <a (click)="pay(total)" class="payBtn" >Payer</a>
+                    <div id="stripe-script"></div>
+                    <div *ngIf="total" style="margin-top: 20px;">
+                        <img src="assets/Images/qr_test.png" />
+                    </div>
+                    -->
+                    
+                    <div>
+                        <a [routerLink]="['/pay/with/dohone']" class="payBtn dohone" >dohone</a>		
+                        <!--<a class="payBtn paypal"  (click)="loadPayPal()">paypal</a>-->
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+</div>

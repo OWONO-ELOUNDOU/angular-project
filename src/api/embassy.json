@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Ambassade de Belgique au Cameroun",
+        "image": "assets/Images/links/Belgique.png",
+        "type": "Ambassade",
+        "url": "http://www.cameroon.diplomatie.belgium.be/"
+    },
+    {
+        "id": 2,
+        "name": "Ambassade du Canada au Cameroun",
+        "image": "assets/Images/links/Canada.jpeg",
+        "type": "Ambassade",
+        "url": "http://www.anadainternational.gc.ca/cameroon-cameroun/"
+    },
+    {
+        "id": 3,
+        "name": "Ambassade du Brésil au Cameroun",
+        "image": "assets/Images/links/Brésil.png",
+        "type": "Ambassade",
+        "url": "http://www.iaunde.itamaraty.gov.br/"
+    },
+    {
+        "id": 4,
+        "name": "Ambassade de France au Cameroun",
+        "image": "assets/Images/links/France.jpeg",
+        "type": "Ambassade",
+        "url": "http://www.cm.ambafrance.org/"
+    },
+    {
+        "id": 5,
+        "name": "Ambassade Italienne au Cameroun",
+        "image": "assets/Images/links/Italie.jpeg",
+        "type": "Ambassade",
+        "url": "http://www.ambyaounde.esteri.it/"
+    },
+    {
+        "id": 6,
+        "name": "Ambassade du Royaume Uni au Cameroun",
+        "image": "assets/Images/links/UK.jpeg",
+        "type": "Ambassade",
+        "url": "http://www.ukincameroon.fco.gov.uk/"
+    },
+    {
+        "id": 7,
+        "name": "Ambassade des Etats unis au Cameroun",
+        "image": "assets/Images/links/USA.jpeg",
+        "type": "Ambassade",
+        "url": "www.cm.usembassy.gov"
+    }
+]

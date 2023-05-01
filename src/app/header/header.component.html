@@ -1,0 +1,31 @@
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <img src="../../assets/Images/icon/logo.png" [routerLink]="['/home']">
+        </div>
+        <ul class="links">
+            <li><a [routerLink]="['/home']">Accueil</a></li>
+            <li>
+                <a href="activity">Prestations</a>
+            </li>
+            <li><a [routerLink]="['/contact']">Contact</a></li>
+            <li><a [routerLink]="['/partnership']">Devenir Partenaire</a></li>
+            <li><a [routerLink]="['/about']">À Propos de Nous</a></li>
+            <li><a [routerLink]="'cart'">Panier ({{ itemCount() }})</a></li>
+        </ul>
+        <a [routerLink]="['/register']" class="action_btn">Inscription</a>
+        <div class="toggle_btn" (click)="toggleMenu()">
+            <i class="material-icons">{{ isMenuOpen ? "close" : "menu" }}</i>
+        </div>
+    </div>
+
+    <div class="dropdown_menu" [class.open]="isMenuOpen">
+        <li><a [routerLink]="['/home']">Accueil</a></li>
+        <li><a href="home#prestations">Prestations</a></li>
+        <li><a [routerLink]="['/contact']">Contact</a></li>
+        <li><a [routerLink]="['/partnership']">Devenir Partenaire</a></li>
+        <li><a [routerLink]="['/About']">À Propos de Nous</a></li>
+        <li><a [routerLink]="'cart'">Panier ({{ itemCount() }})</a></li>
+        <li><a [routerLink]="['/register']" class="action_btn">Inscription</a></li>
+    </div>
+</header>

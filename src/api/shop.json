@@ -1,0 +1,16 @@
+[
+    {
+        "id": 24,
+        "name": "TRANSPORT inter-Urbain YANGO",
+        "image": "assets/Images/school-pics/YANGO.png",
+        "type": "Transport",
+        "url": "https://yango.com/fr_cm/"
+    },
+    {
+        "id": 25,
+        "name": "Pharmacie en ligne Urpharm",
+        "image": "assets/Images/school-pics/Urpharm.jpeg",
+        "type": "Boutique",
+        "url": "https://www.urpharm.com/"
+    }
+]

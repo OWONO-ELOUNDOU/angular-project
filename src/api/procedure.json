@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Acte de Naissance",
+        "description": "Original acte de naissance, copie certifiée conforme, photocopie certifiée de la souche, Attestation d existence de ladite souche, Photocopie de la copie certifiée, Demande manuscrite timbrée à 1000F"
+    },
+    {
+        "id": 2,
+        "name": "Acte de Mariage",
+        "description": "Copie certifiée conforme, Publication de bans, Crertificat de non opposition, status matrimonial du conjoint ou de la conjointe expatrié(e) justifié par un certificat de celibat, une grosse de divorce, ou un acte de décès du cn-onjoint ou de la conjointe, ou tout au autre document équivalent; Photocopie du passeport (pages d identification et visa, cachet entrée et sortie de la police des frontières correspondant à la période du mariage), Demande manuscrite timbrée à 1000F"
+    },
+    {
+        "id": 3,
+        "name": "Acte de décès",
+        "description": "Copie certifiée conforme de l acte de décès, certificat de genre de mort signé par un médecin ou tout autre autorité ayant constaté le décès, photocopie certifiée de la souche, Attestation d existence de ladite souche, Demande manuscrite timbrée à 1000F"
+    },
+    {
+        "id": 4,
+        "name": "Bulletin n°3 du casier judiciaire (B3)",
+        "description": "Photocopie du bulletin n°3, photocopie de l acte de naissance ou de la carte nationale d identité utilisé pour établie le B3 (document à établir au parquet du lieu de naissance du requérant)"
+    }
+]

@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "University of Yaoundé I",
+        "image": "assets/Images/school-pics/UY1.jpeg",
+        "type": "Schools",
+        "url": "https://www.preinscriptions.uninet.cm/formulaire/civilite/"
+    },
+    {
+        "id": 2,
+        "name": "University of Yaoundé II",
+        "image": "assets/Images/school-pics/UY2.png",
+        "type": "Schools",
+        "url": "https://inscriptions.univ-yaounde2.org/registrations/welcome/pregistration"
+    },
+    {
+        "id": 3,
+        "name": "ECOLE NATIONALE SUPÉRIEUR POLYTECHNIQUE de Yaoundé",
+        "image": "assets/Images/school-pics/ENSPY.png",
+        "type": "Schools",
+        "url": "https://polytechnique.cm/"
+    },
+    {
+        "id": 4,
+        "name": "ECOLE NATIONALE SUPÉRIEUR POLYTECHNIQUE de Douala",
+        "image": "assets/Images/school-pics/ENSPD.jpeg",
+        "type": "Schools",
+        "url": "https://enspd-udo.cm/inscription"
+    },
+    {
+        "id": 5,
+        "name": "CAMPUS FRANCE Yaoundé",
+        "image": "assets/Images/school-pics/CAMPUS-FRANCE.png",
+        "type": "Schools",
+        "url": "https://www.cameroun.campusfrance.org/fr"
+    },
+    {
+        "id": 6,
+        "name": "Les Grandes Écoles au Cameroun",
+        "image": "",
+        "type": "Schools",
+        "url": "http://inside-consulting.org/grandes-ecoles-du-cameroun-le-repertoire-universitaire/"
+    },
+    {
+        "id": 7,
+        "name": "ENAM",
+        "image": "assets/Images/school-pics/Enam.jpeg",
+        "type": "Schools",
+        "url": "https://enam-rca.org/"
+    },
+    {
+        "id": 8,
+        "name": "UCAC",
+        "image": "assets/Images/school-pics/UCAC.png",
+        "type": "Schools",
+        "url": "https://www.ucac-icam.com/"
+    },
+    {
+        "id": 9,
+        "name": "ST JEAN",
+        "image": "assets/Images/school-pics/ST_JEAN.jpeg",
+        "type": "Schools",
+        "url": "https://institutsaintjean.org"
+    },
+    {
+        "id": 10,
+        "name": "ST Jerôme Douala",
+        "image": "assets/Images/school-pics/ST_JEROME.jpeg",
+        "type": "Schools",
+        "url": "http://www.univ-catho-sjd.com"
+    }
+]

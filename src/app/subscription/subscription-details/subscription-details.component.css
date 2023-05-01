@@ -1,0 +1,64 @@
+.subscription {
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form {
+    text-align: center;
+    margin-top: 30px;
+    background: #f9f9f9;
+    padding: 20px;
+}
+.subscription form .input-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.subscription form .input-box label {
+    margin-right: 20px;
+}
+.subscription form .input-box input:not(.check) {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #57cc99;
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    padding: 0 10px;
+}
+.subscription form .input-box .check {
+    margin-right: 10px;
+}
+.subscription form .abn-btn {
+    border: 1px solid #57cc99;
+    outline: none;
+    padding: 10px 50px;
+    background: inherit;
+    color: #57cc99;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.subscription form .abn-btn:hover {
+    background: #57cc99;
+    color: #fff;
+    border-radius: 30px;
+}
+.period {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.period .input-box {
+    flex-basis: 45%;
+}
+.subscription form .input-box textarea {
+    width: 100%;
+    padding: 10px;
+}
+.subscription form .paypal {
+    z-index: -1;
+}
